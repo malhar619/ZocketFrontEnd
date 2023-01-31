@@ -1,0 +1,8 @@
+.create-new-campaign--container {
+    background-color: aliceblue;
+    padding: 1em 2em;
+    height: calc(100vh - 4.5rem);
+}
+.create-new-campaign--progress-bar {
+    margin: 2em 2em;
+}

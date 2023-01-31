@@ -1,0 +1,18 @@
+.progress-bar-form--buttons {
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar-form--buttons button {
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 0.75em 4em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.master-form--continue-button {
+    margin-left: auto;
+}

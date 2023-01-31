@@ -1,0 +1,43 @@
+.navbar--container {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    padding-right: 2em;
+    border-bottom: 2px solid #d3e0fd;
+}
+.navbar--container p {
+    font-size: 14px;
+    margin-left: auto;
+}
+.navbar--buy-plan {
+    display: flex;
+    gap: 0.1em;
+    align-items: center;
+    color: rgb(255, 166, 0);
+    background-color: rgb(247, 232, 206);
+    padding: 0.25em 0.45em;
+    margin: 0 0.2em;
+    border-radius: 5px;
+}
+.navbar--notification-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0 0.5em;
+}
+.navbar--customer-profile {
+    width: 8em;
+    margin: 0 0.2em;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.navbar--customer-profile img {
+    width: 1.5em;
+}
+
+.navbar--customer-profile select {
+    border: none;
+    outline: none;
+}

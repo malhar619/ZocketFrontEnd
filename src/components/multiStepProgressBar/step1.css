@@ -1,0 +1,43 @@
+.step-one--container {
+    background-color: #fff;
+    margin-top: 1em;
+    padding: 1em;
+    border: 2px solid #d3e0fd;
+    border-radius: 10px;
+}
+.step-one--container label:first-child {
+    font-size: 18px;
+}
+.step-one--header-span {
+    font-size: 12px;
+    color: gray;
+}
+.step-one--options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+}
+.step-one--options-span {
+    height: 100%;
+}
+.step-one--options-span {
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 1em 0.5em;
+
+    display: flex;
+    align-items: center;
+}
+.step-one--options label input[type='radio']:checked+.step-one--options-span {
+    border-color: blue;
+}
+.step-one--options-span {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+
+    cursor: pointer;
+}
+.step-one--options input[type="radio"] {
+    display: none;
+}

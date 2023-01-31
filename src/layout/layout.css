@@ -1,0 +1,14 @@
+.layout--container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.layout--navbar-children {
+    width: calc(100% - 3em);
+    display: flex;
+    flex-direction: column;
+}
+.children {
+    background-color: aliceblue;
+}
